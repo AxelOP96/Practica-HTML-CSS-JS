@@ -4,27 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>primera pagina</title>
+    <title>Marioclub</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <h1>HyperText Markup Language</h1>
-    <p>We structure content using HTML tags</p>
-    <p>tags use opening and closing structure</p>
-    <h2>Cascading Style Sheets</h2>
-    <p>Used to style web pages to make them look better</p>
-    <p>Etiqueta strong para usar negrita, em para enfatizar en cursiva, small para hacer la letra mas chica</p>
-    <p>h1 a h6 se usan para titular</p>
-    <ul>
-        <li>Yoshi</li>
-        <li>Luigi</li>
-        <li>Toad</li>
-    </ul>
-    <div>Etiqueta div</div>
-    <span>Esto es un span</span>
-    <br>
-    <hr>
-    <img src="" alt="">
-    <a href="forms.html">Forms</a>
+    <header>
+        <h1>Marioclub</h1>
+    </header>
+        <section class="banner">
+            <img src="../img/banner.png" alt="banner of Marioclub">
+            <div class="welcome">
+                <h2>Welcome to <br> <span>Marioclub</span></h2>
+
+            </div>
+        </section>
+        <nav class="main-nav">
+            <ul>
+                <li><a class="join" href="./join.html">Join the club</a></li>
+                <li><a href="./news.html">Latest news</a></li>
+                <li><a href="./games.html">New games</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h2>It´s a me, Mario</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi laudantium nulla inventore quibusdam obcaecati voluptatem repellendus illum ullam suscipit corporis, deserunt reprehenderit porro, cupiditate, beatae autem sequi id! Ad, sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ut, impedit dolorum, totam magnam debitis dignissimos sapiente consectetur dolor ipsa voluptatibus officiis eum quia aut laborum nostrum ratione sunt optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus itaque cum recusandae. Quos ut beatae id? Quia inventore, labore, amet eaque blanditiis ad sequi, libero quod voluptate rerum laudantium ab.</p>
+
+            </article>
+            <ul class="images">
+                <li><img src="../img/thumb-1.png" alt=""></li>
+                <li><img src="../img/thumb-2.png" alt=""></li>
+            </ul>
+        </main>
+        <section class="join">
+            <h2>Join today</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempora amet, libero, repellendus eum assumenda ab doloribus ut sint perferendis id alias, quo accusantium atque recusandae velit quae hic. Ipsam.</p>
+            <form>
+                <input type="email" name="email" placeholder="Type email and hit enter" required>
+
+            </form>
+        </section>
+        <footer>    
+            <p class="copyright">Copyright 2023 Marioclub</p>
+        </footer>
 </body>
 </html>
